@@ -22,7 +22,7 @@ driver = new webdriver.Builder().
     'version': '43.0',
     'username': username,
     'accessKey': accessKey,
-    'name': 'Deployed App Web page',
+    'name': 'OTC Deployed App Test',
     'build': process.env.BUILD_DATE
   }).
   usingServer("http://" + username + ":" + accessKey + "@ondemand.saucelabs.com:80/wd/hub").build();
